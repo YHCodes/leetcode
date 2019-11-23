@@ -9,7 +9,7 @@
 | 169  | [Majority Element](https://leetcode-cn.com/problems/majority-element/) |   hash    | Easy  |                                                              | 2019-11-23 |
 |  1   |     [Two Sum](https://leetcode-cn.com/problems/two-sum/)     |   hash    | Easy  |                                                              | 2019-11-23 |
 | 136  | [Single Number](https://leetcode-cn.com/problems/single-number/) | hash, bit | Easy  |                                                              | 2019-11-23 |
-|      |                                                              |           |       |                                                              |            |
+| 205  | [Isomorphic Strings](https://leetcode-cn.com/problems/isomorphic-strings/) |   hash    | Easy  |                                                              | 2019-11-23 |
 |      |                                                              |           |       |                                                              |            |
 |      |                                                              |           |       |                                                              |            |
 |      |                                                              |           |       |                                                              |            |
