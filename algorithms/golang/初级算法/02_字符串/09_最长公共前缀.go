@@ -28,13 +28,15 @@ func longestCommonPrefix(strs []string) string {
 		return ""
 	}
 
-	if len(strs) == 1 {
-		return strs[0]
-	}
+	// 可去掉
+	// if len(strs) == 1 {
+	// 	return strs[0]
+	// }
 
 	for i := 0; i < len(strs[0]); i++ {
 		for j := 1; j < len(strs); j++ {
-			if len(strs[j]) == 0 || len(strs[j]) - 1 < i || strs[j][i] != strs[0][i] {
+			// if len(strs[j]) == 0 || len(strs[j]) - 1 < i || strs[j][i] != strs[0][i] {
+			if i == len(strs[j]) || strs[j][i] != strs[0][i] {
 				return strs[0][:i]
 			}
 		}
