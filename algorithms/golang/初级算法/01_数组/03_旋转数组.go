@@ -39,7 +39,8 @@ func rotate(nums []int, k int)  {
 // 翻转左边k个: [5,6,7,4,3,2,1]
 // 翻转右边: [5,6,7,1,2,3,4]
 func reverse(nums []int) {
-	for i, n := 0, len(nums); i < n/2; i++ {
+	n := len(nums)
+	for i := 0; i < n/2; i++ {
 		nums[i], nums[n-1-i] = nums[n-1-i], nums[i]
 	}
 }
