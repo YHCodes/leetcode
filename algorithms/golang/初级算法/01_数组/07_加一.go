@@ -6,9 +6,8 @@ import "fmt"
 //import "strconv"
 
 func plusOne(digits []int) []int {
-	n := len(digits)
 	carry := 1
-	for i := n - 1; i >= 0; i-- {
+	for i := len(digits) - 1; i >= 0; i-- {
 		val := digits[i]
 		digits[i] = (val + carry) % 10
 		carry = (val + carry) / 10
